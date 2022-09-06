@@ -1,0 +1,36 @@
+.movies {
+   display: flex;
+   overflow-x: scroll;
+   padding: 20px;
+   margin-bottom: 45px;
+}
+
+.movies .item {
+   margin-right: 15px;
+   width: 100%;
+   max-height: 300px;
+   margin-bottom: 10px;
+   padding: 10px;
+   transition: transform 450ms;
+}
+
+.movies::-webkit-scrollbar {
+   display: none;
+}
+
+.movies .item:hover {
+   transform: scale(1.1);
+}
+
+body {
+   background-color: #111;
+}
+
+h1 {
+   margin-bottom: 15px;
+}
+
+section {
+   margin-left: 20px;
+   color: white;
+}

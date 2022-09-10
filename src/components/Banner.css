@@ -1,0 +1,44 @@
+header {
+   height: 700px;
+   background-position: center center;
+   background-size: cover;
+   color: white;
+   margin-bottom: 2.5em;
+}
+
+
+.banner-container {
+   max-width: 400px;
+   padding: 20px;
+   padding-top: 300px;
+   margin-right: 100px;
+}
+
+.banner-buttons {
+   display: flex;
+   margin-bottom: 1em;
+}
+
+.banner-buttons button{
+   padding: 8px 16px;
+   cursor: pointer;
+   border-radius: 4px;
+   background-color: rgba(97, 97, 97, 0.651);
+   color: white;
+   border: none;
+   outline: none;
+   margin-left: 20px;
+   transition: .4s;
+}
+
+.banner-container p {
+   font-size: 1.3em;
+}
+
+.banner-container h1 {
+   font-size: 3em;
+}
+
+.banner-buttons button:hover {
+   background-color: rgba(184, 184, 184, 0.658);
+}
